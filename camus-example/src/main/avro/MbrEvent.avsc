@@ -1,0 +1,10 @@
+{
+  "namespace": "com.linkedin.camus.example.records",
+  "type": "record",
+  "name": "MbrEvent",
+  "doc": "LivePErson event",
+  "fields": [
+    {"name": "time", "type": "string"},
+    {"name": "rawRequest", "type": "string"}
+  ]
+}

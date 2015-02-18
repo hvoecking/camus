@@ -16,6 +16,6 @@ import com.linkedin.camus.schemaregistry.MemorySchemaRegistry;
 public class DummySchemaRegistry extends MemorySchemaRegistry<Schema> {
 	public DummySchemaRegistry() {
 		super();
-        	super.register("test3", MbrEvent.SCHEMA$);
+        	super.register("avro-another-test", MbrEvent.SCHEMA$);
 	}
 }
